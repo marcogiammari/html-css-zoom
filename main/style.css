@@ -19,6 +19,7 @@
 .txt-red {color: red}
 .pos-abs {position: absolute;}
 .pos-rel {position: relative;}
+.h100 {height: 100%;}
 
 /* header */
 .navbar {
@@ -56,11 +57,28 @@ main .box span {
     font-size: 14px;
 }
 
-i {
+main .box i {
     padding-right: 4px;
 }
 
 /* footer */
 .footerbar {
     height: 100px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+footer i {
+    font-size: 50px;
+    
+}
+
+footer div i {
+    padding: 0 15px;
+}
+
+.end-btn {
+    padding: 0 25px;
 }
