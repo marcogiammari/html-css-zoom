@@ -36,7 +36,28 @@
 
 /* main  */
 .main-container {
-    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+main .box {
+    width: calc(100% / 7 - 10px);
+    margin-top: 10px;
+}
+
+main .box img {
+    display: block;
+    width: 100%;
+}
+
+main .box span {
+    bottom: 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+i {
+    padding-right: 4px;
 }
 
 /* footer */
