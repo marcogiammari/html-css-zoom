@@ -2,12 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* helpers */
 .flex {display: flex;}
-.f-jc-sb {justify-content: space-between;}
-.f-wrap {flex-wrap: wrap;}
+.jc-sb {justify-content: space-between;}
+.jc-f-e {justify-content: flex-end;}
+.a-i-c {align-items: center;}
+.wrap {flex-wrap: wrap;}
 .bg-black-d {background-color: #000000;}
 .bg-black-l {background-color: #222;}
 .bg-gray {background-color: #4a4a4a;}
@@ -19,7 +22,16 @@
 
 /* header */
 .navbar {
-    height: 100px;
+    height: 2rem;
+}
+
+.navbar button {
+    padding: 0 12px;
+    border-radius: 8px;
+}
+.navbar button:first-child img {
+    height: 14px;
+    background-color: white;
 }
 
 /* main  */
