@@ -43,15 +43,15 @@
 }
 
 main .box {
-    background-image: url("../img/picsum.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: calc(100vw / 7 - 20px);
-    height: calc(100vh / 5 - 60px);
+    width: calc(100vw / 7 - 30px);
+    height: calc(100% / 5 - 50px);
     margin-top: 10px;
-    display: block;
     
+}
+
+main .box img {
+    height: 100%;
+    width: 100%;
 }
 
 main .box span {
