@@ -43,7 +43,7 @@
 }
 
 main .box {
-    background-image: url("../img/picsum.jpg");
+    background-image: url("../images/picsum.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
