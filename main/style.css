@@ -45,7 +45,7 @@
 main .box {
     background-image: url("../images/picsum.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: calc(100vw / 7 - 20px);
     height: calc(100vh / 5 - 60px);
